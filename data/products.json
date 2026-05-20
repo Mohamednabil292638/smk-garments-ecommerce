@@ -1,0 +1,141 @@
+[
+  {
+    "id": "mens-001",
+    "category": "mens",
+    "name": "Drop Shoulder Printed T-Shirt",
+    "type": "Round Neck Half Sleeve",
+    "price": 121,
+    "comboPrice": 605,
+    "minimumOrder": 5,
+    "sizes": ["M", "L", "XL"],
+    "shipping": "Free Shipping",
+    "image": "images/products/mens/mens-drop-shoulder.png",
+    "badge": "Best Seller"
+  },
+
+  {
+    "id": "mens-002",
+    "category": "mens",
+    "name": "Printed Half Sleeve T-Shirt",
+    "type": "Round Neck Casual Wear",
+    "price": 136,
+    "comboPrice": 680,
+    "minimumOrder": 5,
+    "sizes": ["M", "L", "XL"],
+    "shipping": "Free Shipping",
+    "image": "images/products/mens/mens-printed-half-sleeve.png",
+    "badge": "Premium"
+  },
+
+  {
+    "id": "mens-003",
+    "category": "mens",
+    "name": "Zipper Collar Half Sleeve T-Shirt",
+    "type": "Premium Casual Wear",
+    "price": 146,
+    "comboPrice": 730,
+    "minimumOrder": 5,
+    "sizes": ["M", "L", "XL"],
+    "shipping": "Free Shipping",
+    "image": "images/products/mens/mens-zipper-half-sleeve.png",
+    "badge": "Trending"
+  },
+
+  {
+    "id": "mens-004",
+    "category": "mens",
+    "name": "Full Sleeve Zipper Collar T-Shirt",
+    "type": "Premium Full Sleeve",
+    "price": 176,
+    "comboPrice": 880,
+    "minimumOrder": 5,
+    "sizes": ["M", "L", "XL"],
+    "shipping": "Free Shipping",
+    "image": "images/products/mens/mens-full-sleeve-zipper.png",
+    "badge": "New Arrival"
+  },
+
+  {
+    "id": "mens-005",
+    "category": "mens",
+    "name": "Round Neck Full Hand T-Shirt",
+    "type": "Premium Cotton Wear",
+    "price": 156,
+    "comboPrice": 780,
+    "minimumOrder": 5,
+    "sizes": ["M", "L", "XL"],
+    "shipping": "Free Shipping",
+    "image": "images/products/mens/mens-full-hand-round-neck.jpeg",
+    "badge": "Popular"
+  },
+
+  {
+    "id": "ladies-001",
+    "category": "ladies",
+    "name": "Ladies Ankle Leggings",
+    "type": "4-Way Lycra",
+    "price": 156,
+    "comboPrice": 780,
+    "minimumOrder": 5,
+    "sizes": ["L", "XL", "2XL"],
+    "shipping": "Free Shipping",
+    "image": "images/products/ladies/ladies-ankle-leggings.png",
+    "badge": "Premium"
+  },
+
+  {
+    "id": "ladies-002",
+    "category": "ladies",
+    "name": "Ladies Full-Length Leggings",
+    "type": "4-Way Lycra",
+    "price": 176,
+    "comboPrice": 880,
+    "minimumOrder": 5,
+    "sizes": ["L", "XL", "2XL"],
+    "shipping": "Free Shipping",
+    "image": "images/products/ladies/ladies-full-length-leggings.png",
+    "badge": "Best Seller"
+  },
+
+  {
+    "id": "ladies-003",
+    "category": "ladies",
+    "name": "Ladies Palazzo",
+    "type": "Plain / Printed",
+    "price": 79,
+    "comboPrice": 400,
+    "minimumOrder": 5,
+    "sizes": ["XL", "XXL"],
+    "shipping": "Free Shipping",
+    "image": "images/products/ladies/ladies-palazzo.png",
+    "badge": "Budget Combo"
+  },
+
+  {
+    "id": "ladies-004",
+    "category": "ladies",
+    "name": "Premium Printed Palazzo",
+    "type": "Popcorn Fabric",
+    "price": 156,
+    "comboPrice": 780,
+    "minimumOrder": 5,
+    "sizes": ["XL", "XXL"],
+    "shipping": "Free Shipping",
+    "image": "images/products/ladies/ladies-printed-palazzo.png",
+    "badge": "Premium"
+  },
+
+  {
+    "id": "ladies-005",
+    "category": "ladies",
+    "name": "Ladies Cotton Night Pant",
+    "type": "Export Quality",
+    "price": 146,
+    "comboPrice": 730,
+    "minimumOrder": 5,
+    "sizes": ["XL", "2XL", "3XL"],
+    "shipping": "Free Shipping",
+    "image": "images/products/ladies/ladies-night-pant.png",
+    "badge": "Comfort Wear"
+  }
+]

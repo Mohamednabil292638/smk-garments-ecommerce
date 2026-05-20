@@ -1,0 +1,149 @@
+/* css/responsive.css — Consolidated Responsive Rules */
+
+/* ===== Tablet (max 1024px) ===== */
+@media (max-width: 1024px) {
+    .trust-features-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .category-banner { height: 320px; }
+    .product-grid {
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 1.5rem;
+    }
+}
+
+/* ===== Nav Breakpoint (max 992px) ===== */
+@media (max-width: 992px) {
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 80%;
+        max-width: 400px;
+        height: 100vh;
+        background-color: var(--color-bg-charcoal);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        transition: right 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+        box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+        padding: 2rem;
+    }
+    .nav-links.active { right: 0; }
+    .nav-links a { font-size: 1.1rem; }
+    .nav-btn-desktop { display: none; }
+    .nav-links a.nav-cta-mobile { display: flex; margin-top: 1rem; }
+    .mobile-menu-toggle { display: flex; }
+
+
+
+    .hero-buttons { flex-direction: column; }
+    .wholesale-steps { grid-template-columns: 1fr; gap: 1.5rem; }
+    .wholesale-highlights { grid-template-columns: repeat(2, 1fr); }
+    .about-grid { grid-template-columns: 1fr; gap: 2rem; }
+    .contact-grid { grid-template-columns: 1fr; }
+    .checkout-grid { grid-template-columns: 1fr; }
+    .footer-grid { grid-template-columns: 1fr 1fr; gap: 2rem; }
+
+    .page-banner { height: 280px; }
+}
+
+/* ===== Mobile (max 768px) ===== */
+@media (max-width: 768px) {
+    :root {
+        --section-spacing-y: 4rem;
+        --container-padding: 1.25rem;
+    }
+
+    .hero {
+        padding-top: 130px;
+        min-height: 80vh;
+    }
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 10px;
+    }
+    .hero-buttons .btn { width: 100%; }
+    .trust-badge { width: 100%; justify-content: flex-start; }
+
+    .category-banner { height: 260px; }
+    .category-banner-title {
+        font-size: 2rem;
+        letter-spacing: 0.06em;
+    }
+    .category-banner-subtitle { font-size: 0.9rem; }
+
+    .cta-strip-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .cta-strip-actions {
+        flex-direction: column;
+        width: 100%;
+    }
+    .cta-strip-actions .btn { width: 100%; }
+
+    .product-img { height: 300px; }
+    .trust-features-grid { grid-template-columns: 1fr; }
+
+    .wholesale-banner-area { height: 240px; }
+    .bulk-cta-section { height: 300px; }
+    .contact-cards { grid-template-columns: 1fr; }
+    .form-row { grid-template-columns: 1fr; }
+    .cart-drawer { width: 100vw; right: -100vw; }
+    .footer-grid { grid-template-columns: 1fr; }
+    .checkout-content { padding: 1.5rem; }
+
+    .page-banner { height: 240px; }
+    .page-banner-title { font-size: 2rem; }
+
+    .section-title { font-size: 1.75rem; margin-bottom: 2rem; }
+    .section-subtitle { margin: -1rem auto 2rem; font-size: 1rem; }
+
+    /* Promo strip mobile */
+    .promo-strip-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+    .promo-strip-content h3 { font-size: 1.25rem; }
+
+    /* Warehouse section mobile */
+    .warehouse-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    /* Preview section mobile */
+    .preview-product-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ===== Small Mobile (max 480px) ===== */
+@media (max-width: 480px) {
+
+    .nav-container { height: 70px; }
+    .navbar.scrolled .nav-container { height: 60px; }
+
+    .hero { padding-top: 110px; min-height: 75vh; }
+    .hero h1 { font-size: 2rem; }
+
+    .category-banner { height: 200px; }
+    .category-banner-title { font-size: 1.5rem; }
+    .product-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+    .product-img { height: 280px; }
+    .category-cta-strip { padding: 1.25rem; }
+
+    .bulk-cta-section { height: 260px; }
+    .bulk-cta-content h2 { font-size: 1.5rem; }
+    .bulk-cta-buttons { flex-direction: column; }
+    .about-stats { flex-direction: column; gap: 1rem; }
+    .wholesale-highlights { grid-template-columns: 1fr 1fr; gap: 1rem; }
+
+    .page-banner { height: 200px; }
+    .page-banner-title { font-size: 1.5rem; }
+}
