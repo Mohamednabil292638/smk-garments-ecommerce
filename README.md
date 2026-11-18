@@ -368,6 +368,7 @@ It strengthened my hands-on experience in Java full-stack development and provid
 ## Project Repository
 
 **GitHub:** https://github.com/Mohamednabil292638/smk-garments-ecommerce
+**Live:** https://smk-garments-ecommerce.netlify.app/
 
 **Developer:** Mohamed Nabil S  
 **Project:** S.M.K. Shri Ayyappa Garments – Full Stack E-Commerce Platform
